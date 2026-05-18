@@ -1,0 +1,67 @@
+body {
+    background-color: white;
+    font-family: Arial;
+    color: orange;
+    font-size: 16px;
+}
+
+/* HEADERS */
+h1 {
+    color: black;
+    font-size: 28px;
+}
+
+h2 {
+    color: darkorange;
+    font-size: 20px;
+}
+
+/* LINKS */
+a {
+    color: blue;
+}
+
+a:hover {
+    color: red;
+}
+
+a:visited {
+    color: purple;
+}
+
+/* IMAGES */
+.logo {
+    width: 200px;
+    display: block;
+    margin: auto;
+}
+
+.profile {
+    width: 250px;
+    display: block;
+    margin-top: 10px;
+}
+
+/* GRID CONTAINER */
+.container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin: 20px;
+}
+
+/* GRID TILES */
+.grid-1, .grid-2, .grid-3, .grid-4 {
+    border: 2px solid black;
+    padding: 15px;
+    background-color: rgba(255, 165, 0, 0.3);
+    transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.grid-1:hover,
+.grid-2:hover,
+.grid-3:hover,
+.grid-4:hover {
+    background-color: rgba(255, 140, 0, 0.6);
+}
